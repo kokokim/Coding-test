@@ -4,7 +4,7 @@ arr=list(map(int, input().split()))
 s=True
 num=0
 for i in arr:
-    if i==0 or i==1:
+    if i==1:
         continue
     for j in range(2, i):
         if i%j==0:
